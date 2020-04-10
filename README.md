@@ -1,6 +1,6 @@
 # MyIP
 
-Simple Azure function that returns visitors public IP address.
+Simple Azure function that returns client's public IP address.
 
 ## Usage
 
@@ -8,17 +8,26 @@ Simple Azure function that returns visitors public IP address.
 
 Copy paste following address in your favorite browser or just click on the link below to open it in your default one.
 
-https://iiric.azurewebsites.net/api/MyIP
+https://az.iric.online/myip
 
 ### PowerShell
 
 ```PowerShell
-irm https://iiric.azurewebsites.net/api/MyIP
+irm az.iric.online/myip
 ```
 Command `irm` is alias for `Invoke-RestMethod` commandlet.
+
+This example work both on Linux and Windows.
 
 ### Curl
 
 ```shell
-curl https://iiric.azurewebsites.net/api/MyIP
+curl https://az.iric.online/myip
 ```
+
+### Azure Functions
+
+Web site is published using Azure Functions.
+It's original address is https://iiric.azurewebsites.net/MyIP
+
+All commands above work also with this longer name.
