@@ -34,6 +34,6 @@ All commands above work also with this longer name.
 
 ## Security
 
-Deployed application is configured to use only HTTP with minimum TLS 1.2.
+Deployed application is configured to use only HTTPS with minimum TLS 1.2.
 
 Certificate is provided to secure both sites `az.iric.online` and `iiric.azurewebsites.net`
