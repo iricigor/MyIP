@@ -37,3 +37,7 @@ All commands above work also with this long name.
 Deployed application is configured to use only HTTPS protocol with minimum TLS 1.2.
 
 Certificates are provided to secure both sites `az.iric.online` and `iiric.azurewebsites.net`
+
+## License 
+
+MyIP is licensed under the [MIT license](./LICENSE).
